@@ -6,4 +6,8 @@ router.get('/', function(req, res) {
   res.send('respond with a resource');
 });
 
+router.get('/uhc', function(req, res) {
+  res.send('respond with an uhc response');
+});
+
 module.exports = router;
